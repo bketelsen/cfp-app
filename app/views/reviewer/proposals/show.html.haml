@@ -23,8 +23,7 @@
 
     .col-md-4
       %h3 Public Comments
-      = render partial: 'proposals/comments',
-        locals: { proposal: proposal, comments: proposal.public_comments }
+
     .col-md-4
       %h3 Review
       - unless proposal.draft?
